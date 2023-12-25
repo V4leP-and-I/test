@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container header_content">
+            <div class="logotip">
+                <div class="ligo_img">
+                    <img src="img/Logo.svg" alt="Logo">
+                </div>
+                <div>
+                    <a class="logo_text" href="index.html">Тестовый вариант</a>
+                </div>
+            </div>
+            <div class="reg_log">
+                <div class="search_img">
+                    <img src="img/search.svg" alt="search">
+                </div>
+                <div class="reg">
+                    <a class="registration">Регистрация</a>
+                </div>
+                <div class="log">
+                    <a class="enter">Войти</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="container main_content">
+            <div class="main_top">
+                <div class="main_title">
+                    <a class="title">Продукция месяца</a>
+                </div>
+
+                <div class="select-container">
+                    <select id="type" class="select-box">
+                        <option data-f="all" selected value="all">Показывать всё</option>
+                        <option data-f="tea" value="tea">Чай</option>
+                        <option data-f="coffee" value="coffee">Кофе</option>
+                    </select>
+                    <div class="icon">
+                        <img src="img/Trailing Icon.svg" alt="icon">
+                    </div>
+                </div>
+                <div class="select-container">
+                    <select id="date" class="select-box">
+                        <option data-f="less" selected value="less">По убыванию</option>
+                        <option data-f="more" value="more">По возрастанию</option>
+                    </select>
+                    <div class="icon">
+                        <img src="img/Trailing Icon.svg" alt="icon">
+                    </div>
+                </div>
+                <!-- <div class="select-container">
+                    <select id="color" class="select-box">
+                        <input type="checkbox" data-f="all"  selected value="all" >Показывать всё
+                        <input type="checkbox" data-f="red" value="red">Красный
+                        <input type="checkbox" data-f="blue" value="blue">Голубой
+                        <input type="checkbox" data-f="yellow" value="yellow">Желтый
+                    </select>
+                    <div class="icon">
+                        <img src="img/Trailing Icon.svg" alt="icon">
+                    </div>
+                </div> -->
+                <div class="select-container">
+                    <form id="color" class="check-box">
+                        <label><input class="color" type="checkbox" name="color" value="red"> Красный</label><br>
+                        <label><input class="color" type="checkbox" name="color" value="blue"> Синий</label><br>
+                        <label><input class="color" type="checkbox" name="color" value="yellow"> Желтый</label><br>
+                    </form>
+                </div>
+
+            </div>
+            <div class="top_posicion">
+                <p>Популярные позиции сезона с дополнительной скидкой</p>
+            </div>
+            <div class="content">
+                <!-- <div class="card c1">
+                    <img class="card_img" src="img/IMG1.svg" alt="Img1">
+                    <div class="card_content">
+                        <a class="cars_name">Лун Цзин, 50г</a>
+                        <a class="card_text">Один из самых узнаваемых сортов китайского чая.
+                            Его вкус запоминается на всю жизнь: ореховый, с нотами моря и тыквенных семечек, объёмный
+                            и глубокий.</a>
+                        <button class="but_c">Подробнее</button>
+                    </div>
+                </div>
+                <div class="card c2">
+                    <img class="card_img" src="img/IMG2.svg" alt="Img2">
+                    <div class="card_content">
+                        <a class="cars_name">«Королевский Эрл Грей» пакетированный чай</a>
+                        <a class="card_text">Черный чай с бергамотом — это классика вкуса, уже ставшая традицией.
+                            Такой напиток известен уже более ста лет и является излюбленным сортом чая у англичан.</a>
+                        <button class="but_c">Подробнее</button>
+                    </div>
+
+                </div>
+                <div class="card c3">
+                    <img class="card_img" src="img/IMG3.svg" alt="Img3">
+                    <div class="card_content">
+                        <a class="cars_name">Шоколад Марагоджип</a>
+                        <a class="card_text">Густой напиток на основе сорта марагоджип с меньшим содержанием кофеина,
+                            чем традиционная арабика. Сочетает в себе оттенки кофе и темного шоколада.</a>
+                        <button class="but_c">Подробнее</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+    </main>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="json.js"></script>
+</body>
+
+</html>
