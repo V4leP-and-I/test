@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <script type="text/javascript" src="test.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+
+    <title>Продукция месяца</title>
+</head>
+
+<body>
+    <header>
+        <div class="left-header">
+            <img src="логотип.png" alt="Логотип" width="100">
+            <h1>Название сайта</h1>
+        </div>
+        <div class="right-header">
+            <input type="text" placeholder="Поиск">
+            <button class="button-registration">Регистрация</button>
+            <button class="button-login" onclick="openModal()">Вход</button>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()"></span>
+                <input type="text" placeholder="Телефон или email">
+                <input type="password" placeholder="Пароль">
+                <button id="loginButton">Войти</button>
+            </div>
+        </div>
+
+    </header>
+    <div class="main-content">
+        <h1>Продукция месяца</h1>
+        <p>Популярные позиции сезона с дополнительной скидкой</p>
+        <div class="dropdown">
+            <button class="dropbtn">Показывать всё</button>
+            <div class="dropdown-content">
+                <a href="#">Чай</a>
+                <a href="#">Кофе</a>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="фото1.jpg" alt="Фото продукта 1">
+                <h2>Название продукта 1</h2>
+                <p>Описание продукта 1</p>
+                <button class="button-details">Подробнее</button>
+            </div>
+            <!-- Аналогично для остальных карточек -->
+        </div>
+    </div>
+    <footer>
+        <!-- Контент футера -->
+    </footer>
+</body>
+
+</html>
